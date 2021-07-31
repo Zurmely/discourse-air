@@ -465,3 +465,7 @@ td.num.views, th.num.views {
 img.avatar {
    border-radius: 50% !important;
 }
+
+.btn:not(.themes-tab):not(.components-tab), .select-kit.dropdown-select-box .dropdown-select-box-header {
+border-radius: 4px !important;
+}
