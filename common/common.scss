@@ -1,11 +1,11 @@
 // custom cool scroll bar
 body::-webkit-scrollbar {
     width: 4px;
-    z-index: 999;
+    z-index: 3 !important;
 }
 
 body::-webkit-scrollbar-track {
-    background: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.1);
 }
 
 body::-webkit-scrollbar-thumb {
