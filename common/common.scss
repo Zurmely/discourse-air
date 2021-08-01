@@ -1,3 +1,19 @@
+// custom cool scroll bar
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.15);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2a44ff;
+    border-radius: 20px;
+    border: none;
+}
+
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
