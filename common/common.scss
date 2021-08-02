@@ -34,10 +34,11 @@ body::-webkit-scrollbar-thumb {
     border: 1px solid transparent;
     border-radius: 0.25em;
     min-height: 40px;
-      background: red;
+      background: #1a202c;
     &:focus {
       border: 1px solid transparent;
         outline: none;
+        background: #ccc;
         border-radius: 0.25em;
     }
   }
