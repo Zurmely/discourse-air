@@ -13,10 +13,6 @@ body::-webkit-scrollbar-thumb {
     border: none;
 }
 
-.wrap {
-    max-width: 1250px;
-}
-
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -256,7 +252,8 @@ html body #main-outlet {
   background: var(--secondary);
   border-radius: 6px;
   padding: 3em 3em 5%;
-  max-width: 1300px;
+  width: 90%;
+  max-width: 1350px;
   .archetype-regular & {
     min-height: 500px;
   }
