@@ -4,7 +4,7 @@ body::-webkit-scrollbar {
     z-index: 3 !important;
 }
 
-.admin-controls .nav-pills {
+.admin-controls nav {
     border-radius: 4px;
 }
 
@@ -15,10 +15,6 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: #2a44ff;
     border: none;
-}
-
-.admin-controls {
-    border-radius: 4px;
 }
 
 // custom search banner customizations
