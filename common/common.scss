@@ -4,6 +4,10 @@ body::-webkit-scrollbar {
     z-index: 3 !important;
 }
 
+.admin-controls .nav-pills {
+    border-radius: 4px;
+}
+
 body::-webkit-scrollbar-track {
     background: rgba(0,0,0,0.1);
 }
