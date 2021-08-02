@@ -1,11 +1,15 @@
+.admin-controls nav {
+    border-radius: 4px;
+}
+
+.admin-controls {
+    border-radius: 4px;
+}
+
 // custom cool scroll bar
 body::-webkit-scrollbar {
     width: 4px;
     z-index: 3 !important;
-}
-
-.admin-controls nav {
-    border-radius: 4px;
 }
 
 body::-webkit-scrollbar-track {
