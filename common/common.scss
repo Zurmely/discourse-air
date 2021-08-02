@@ -34,6 +34,7 @@ body::-webkit-scrollbar-thumb {
     border: 1px solid transparent;
     border-radius: 0.25em;
     min-height: 40px;
+      color: rgba(255,255,255,0.5);
       background: #1a202cc4;
       transition: background 0.3s ease-in-out;
     &:focus {
@@ -41,6 +42,7 @@ body::-webkit-scrollbar-thumb {
         outline: none;
         background: #1a202c;
         border-radius: 0.25em;
+        color: rgba(255,255,255,0.75);
     }
   }
   .widget-link.show-help {
