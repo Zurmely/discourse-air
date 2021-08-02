@@ -35,6 +35,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 0.25em;
     min-height: 40px;
       background: #1a202cc4;
+      transition: background 0.3s ease-in-out;
     &:focus {
       border: 1px solid transparent;
         outline: none;
