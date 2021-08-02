@@ -35,7 +35,8 @@ body::-webkit-scrollbar-thumb {
     border-radius: 0.25em;
     min-height: 40px;
     &:focus {
-      outline: 3px solid rgba(var(--primary-rgb),.35);
+      outline: 1px solid rgba(var(--primary-rgb),.35);
+        border-radius: 0.25em;
     }
   }
   .widget-link.show-help {
