@@ -9,6 +9,14 @@ position: fixed;
     opacity: 0.5;
 }
 
+.menu-panel hr {
+      border-top: 2px solid rgba(255,255,255,0.25);
+    margin: 3px 0;
+    border-radius: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
 .menu-panel .widget-link:hover, .menu-panel .widget-link:focus, .menu-panel .categories-link:hover, .menu-panel .categories-link:focus {
   border-radius: 4px;
 }
