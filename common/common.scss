@@ -9,6 +9,11 @@ position: fixed;
     opacity: 0.5;
 }
 
+.menu-panel.drop-down {
+  border: none !important;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+}
+
 .custom-search-banner-wrap h1 {
   margin-top: 0.5em;
   color: white;
