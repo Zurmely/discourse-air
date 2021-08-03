@@ -9,6 +9,10 @@ position: fixed;
     opacity: 0.5;
 }
 
+.menu-panel .widget-link:hover, .menu-panel .widget-link:focus, .menu-panel .categories-link:hover, .menu-panel .categories-link:focus {
+  border-radius: 4px;
+}
+
 .menu-container-general-links hr {
   display: none;
 }
