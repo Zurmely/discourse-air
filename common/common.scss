@@ -11,7 +11,7 @@ position: fixed;
 
 .user-main .about .details {
     background: rgba(var(--secondary-rgb), 0.8);
-    border-bottom: 2px solid rgba(255,255,255,0.05);
+    border-bottom: 2px solid rgba(255,255,255,0.025);
 }
 
 .user-main .about .secondary dt {
@@ -30,7 +30,7 @@ position: fixed;
     border-radius: 0px;
     display: inline-block;
     width: 100%;
-    border-top: 2px solid rgba(255,255,255,0.05);
+    border-top: 2px solid rgba(255,255,255,0.025);
 }
 
 .user-main .about .details .user-profile-avatar {
@@ -72,7 +72,7 @@ text-transform: capitalize;
 }
 
 .menu-panel hr {
-      border-top: 2px solid rgba(255,255,255,0.25);
+      border-top: 2px solid rgba(255,255,255,0.05);
     margin: 3px 0;
     border-radius: 20px;
     margin-top: 16px;
