@@ -13,6 +13,10 @@ position: fixed;
   display: none;
 }
 
+hr.categories-separator {
+  display: none;
+}
+
 .menu-panel.drop-down {
   border: 1px solid rgba(255,255,255,0.15) !important;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
