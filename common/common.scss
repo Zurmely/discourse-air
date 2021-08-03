@@ -9,6 +9,10 @@ position: fixed;
     opacity: 0.5;
 }
 
+.menu-container-footer-links {
+  display: none;
+}
+
 .menu-panel.drop-down {
   border: 1px solid rgba(255,255,255,0.15) !important;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
