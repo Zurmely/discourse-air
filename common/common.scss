@@ -9,6 +9,34 @@ position: fixed;
     opacity: 0.5;
 }
 
+.summary-category-list.pull-left.top-sub-section.ember-view {
+    display: none;
+}
+
+.summary-user-list.liked-section.pull-right.top-sub-section.ember-view {
+    display: none;
+}
+
+.summary-user-list.liked-by-section.pull-left.top-sub-section.ember-view {
+    display: none;
+}
+
+.summary-user-list.replied-section.pull-right.top-sub-section.ember-view {
+    display: none;
+}
+
+.links-section.pull-left.top-sub-section.ember-view {
+    display: none;
+}
+
+.replies-section.pull-left.top-sub-section.ember-view {
+    display: none;
+}
+
+.topics-section.pull-right.top-sub-section.ember-view {
+    display: none;
+}
+
 .top-section.stats-section {
 text-transform: capitalize;
 }
