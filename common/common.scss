@@ -9,6 +9,11 @@ position: fixed;
     opacity: 0.5;
 }
 
+.nav-pills>li>a:hover {
+    color: var(--quaternary);
+    background-color: #5850eb50;
+}
+
 .btn {
     box-sizing: border-box;
     display: inline-flex;
