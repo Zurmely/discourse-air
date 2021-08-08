@@ -9,6 +9,36 @@ position: fixed;
     opacity: 0.5;
 }
 
+.btn {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0.53em 0.8em;
+    border: none;
+    font-weight: normal;
+    font-size: var(--font-0);
+    line-height: normal;
+    color: white;
+    background: #5850eb;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.nav-pills>li a.active {
+    color: white;
+    background-color: #5850eb;
+}
+
+.list-controls .combo-box .combo-box-header {
+    background: var(--secondary);
+    color: var(--primary);
+    border: 1px solid #5850eb;
+    font-size: var(--font-0);
+    transition: none;
+}
+
 html body #main-outlet {
     margin-top: 30px;
     margin-bottom: 50px;
