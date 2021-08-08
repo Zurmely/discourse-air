@@ -9,6 +9,29 @@ position: fixed;
     opacity: 0.5;
 }
 
+html body #main-outlet {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(45,55,72,0.7);
+    background: rgba(45,55,72,0.25);
+    border-radius: 6px;
+    padding: 3em 3em 5%;
+    width: 90%;
+    max-width: 1450px;
+    padding-bottom: 5% !important;
+    box-shadow: 0 24px 40px rgba(0,0,0,0.07),0 10.8529px 24.1177px rgba(0,0,0,0.0456112),0 4.50776px 10.0172px rgba(0,0,0,0.035),0 1.63037px 3.62304px rgba(0,0,0,0.0243888);
+}
+
+.d-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 1000;
+    background-color: #1a202c;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+    backface-visibility: hidden;
+}
+
 .user-main .about .details {
     background: rgba(var(--secondary-rgb), 0.8);
     border-bottom: 2px solid rgba(255,255,255,0.025);
